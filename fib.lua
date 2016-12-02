@@ -1,3 +1,14 @@
+local function fib(n)
+    if n < 2 then
+        return n
+    else
+        return fib(n-1) + fib(n-2)
+    end
+end
+
+print (fib(20))
+
+--[[
 function fibo_rec(m)
     if m < 2 then
       return m
@@ -31,20 +42,4 @@ while i < 40 do
     print(i .. ": " .. fibo_rec(i))
     i=i+1    
 end
-
---[[
-i=0
-while i < 50 do
-    print(i .. ": " .. fibo(i))
-    i=i+1    
-end
-]]
-
---[[
-i=0
-while i < 1000 do
-    print(i .. ": " .. fibo_iter(i))
-    i=i+1    
-end
-]]
-
+--]]
