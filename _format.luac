@@ -1,0 +1,15 @@
+Lua 5.2.4  Copyright (C) 1994-2015 Lua.org, PUC-Rio
+
+main <_format.lua:0,0> (11 instructions at 0x23bf3b0)
+0+ params, 4 slots, 1 upvalue, 0 locals, 7 constants, 0 functions
+	1	[1]	GETTABUP 	0 0 -2	; _ENV "string"
+	2	[1]	GETTABLE 	0 0 -3	; "format"
+	3	[1]	LOADK    	1 -4	; "%s %s"
+	4	[1]	LOADK    	2 -5	; "hola"
+	5	[1]	LOADK    	3 -6	; "mundo"
+	6	[1]	CALL     	0 4 2
+	7	[1]	SETTABUP 	0 -1 0	; _ENV "str"
+	8	[2]	GETTABUP 	0 0 -7	; _ENV "print"
+	9	[2]	GETTABUP 	1 0 -1	; _ENV "str"
+	10	[2]	CALL     	0 2 1
+	11	[2]	RETURN   	0 1
