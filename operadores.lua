@@ -66,3 +66,7 @@ print(i%i); --0
 print(i%d); --1
 print(d%i); --0.050000000000001
 print(d%d); --0
+
+if nil then
+    print("nil != false");
+end

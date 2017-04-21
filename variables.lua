@@ -1,5 +1,8 @@
 --declaracion de variables basicas --salida
-l=true;
+local a = 0
+local b = 10
+print(a+b)
+--[[l=true;
 print(l); --true
 e=10; 
 print(e); --10
@@ -15,3 +18,5 @@ PI = 3.14;
 print(PI);
 PI = 3.1416;
 print(PI); --esta no es tomada como constante    
+
+---]]
